@@ -1,0 +1,6 @@
+
+# Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# IDEs
+brew cask install phpstorm intellij-idea goland 
