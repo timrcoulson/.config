@@ -2,5 +2,29 @@
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# Languages
+brew install go node
+
 # IDEs
 brew cask install phpstorm intellij-idea goland 
+
+# Tooling
+brew install terraform
+
+# Productivity
+brew cask install slack google-chrome 1password iterm2
+
+# Containers
+brew install docker kubectl docker-compose
+brew cask install virtualbox
+docker-machine create default
+docker-machine start default
+eval "$(docker-machine env default)"
+
+# Gcloud
+curl https://sdk.cloud.google.com > gcloud
+exec -l $SHELL
+gcloud init
+
+# Fun
+brew cask install spotify ableton-live-standard
