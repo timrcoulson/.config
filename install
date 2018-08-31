@@ -10,7 +10,7 @@ brew install go node
 brew cask install phpstorm intellij-idea goland 
 
 # Tooling
-brew install terraform
+brew install terraform sequel-pro
 
 # Productivity
 brew cask install slack google-chrome 1password iterm2

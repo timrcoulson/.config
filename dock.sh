@@ -1,5 +1,5 @@
 defaults write com.apple.dock persistent-apps -array
-APPS=( Ableton\ Live\ 10\ Standard.app Slack.app Google\ Chrome.app 1Password\ 7.app GoLand.app IntelliJ\ IDEA.app iTerm.app Spotify.app Notes.app)
+APPS=( Ableton\ Live\ 10\ Standard.app Slack.app Google\ Chrome.app 1Password\ 7.app GoLand.app IntelliJ\ IDEA.app iTerm.app Spotify.app Notes.app Sequel\ Pro.app PhpStorm.app)
 
 for i in "${APPS[@]}"
 do
