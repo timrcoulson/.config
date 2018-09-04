@@ -13,3 +13,7 @@ defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 
 # Install dock items
 bash dock.sh
+
+cp bash_profile ~/.bash_profile
+
+git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/" 

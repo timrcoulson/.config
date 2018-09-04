@@ -8,11 +8,12 @@ APPS=(
   1Password\ 7
   GoLand
   IntelliJ\ IDEA
+  Webstorm
+  PhpStorm
   iTerm
   Spotify
   Notes
   Sequel\ Pro
-  PhpStorm
 )
 
 for i in "${APPS[@]}"
