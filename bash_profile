@@ -77,9 +77,11 @@ alias gstd="git stash drop"
 alias gstl="git stash list"
 alias gh='cd "$(git rev-parse --show-toplevel)"'
 
+# Docker
 alias dc='docker-compose'
 
-export GOPATH=$HOME/go-workspace # don't forget to change your path correctly!
+# Go
+export GOPATH=$HOME/go-workspace
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin

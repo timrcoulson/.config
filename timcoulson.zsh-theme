@@ -1,20 +1,23 @@
 local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
 
-H=$(date +%H)
-EMOJI=
-if (( 8 <= 10#$H && 10#$H < 13 )); then 
-    EMOJI=☕
-elif (( 13 <= 10#$H && 10#$H < 14 )); then 
-    EMOJI=🍽
-elif (( 14 <= 10#$H && 10#$H < 18 )); then 
-    EMOJI=☕
-elif (( 18 <= 10#$H && 10#$H < 23 )); then
-    EMOJI=🍺
-else
-    EMOJI=💤
-fi
+emoji() {
+  H=$(date +%H)
+  if (( 7 <= 10#$H && 10#$H < 8 )); then 
+    echo 🌅
+  elif (( 8 <= 10#$H && 10#$H < 13 )); then 
+    echo ☕
+  elif (( 13 <= 10#$H && 10#$H < 14 )); then 
+    echo 🍽
+  elif (( 14 <= 10#$H && 10#$H < 18 )); then 
+    echo ☕
+  elif (( 18 <= 10#$H && 10#$H < 23 )); then
+    echo 🍺
+  else
+    echo 💤
+  fi
+}
 
-PROMPT='${ret_status} ${EMOJI} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+PROMPT='${ret_status} $(emoji) %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "

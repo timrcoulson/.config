@@ -21,6 +21,7 @@ brew "dep"
 tap "go-swagger/go-swagger"
 brew "go-swagger"
 cask "postman"
+cask "google-cloud-sdk"
 
 # Productivity
 cask "slack"
