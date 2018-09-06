@@ -16,4 +16,12 @@ bash dock.sh
 
 cp bash_profile ~/.bash_profile
 
+mv zshrc ~/.zshrc
+
 git config --global url."git@gitlab.com:".insteadOf "https://gitlab.com/" 
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Syntax highlighting for zsh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+cp timcoulson.zsh-theme ~/.oh-my-zsh/themes/

@@ -3,6 +3,7 @@ brew "go"
 brew "golang"
 brew "node"
 cask "java"
+cask "python"
 
 # IDEs
 cask "phpstorm"
@@ -27,6 +28,8 @@ cask "google-chrome"
 cask "1password"
 cask "iterm2"
 cask "atom"
+brew "zsh"
+brew "zsh-completions"
 
 # Containers
 cask "docker"
