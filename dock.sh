@@ -12,7 +12,6 @@ APPS=(
   PhpStorm
   iTerm
   Spotify
-  Notes
   Sequel\ Pro
 )
 
