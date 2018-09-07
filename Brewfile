@@ -22,6 +22,7 @@ tap "go-swagger/go-swagger"
 brew "go-swagger"
 cask "postman"
 cask "google-cloud-sdk"
+brew "hugo"
 
 # Productivity
 cask "slack"
