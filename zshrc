@@ -89,3 +89,5 @@ source $ZSH/oh-my-zsh.sh
 alias ls="ll"
 
 alias sync="cd ~/config/; git add . ; git commit -m 'Sync settings @ $(date)'; git push"
+
+export GOPATH=$HOME/go

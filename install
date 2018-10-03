@@ -30,3 +30,6 @@ ln -s $(pwd)/timcoulson.zsh-theme ~/.oh-my-zsh/themes/timcoulson.zsh-theme
 # Get 1pw and chrome to play nicely
 xattr -r -d com.apple.quarantine /Applications/Google\ Chrome.app
 xattr -r -d com.apple.quarantine /Applications/1Password\ 7.app
+
+# Gopath
+mkdir ~/go
