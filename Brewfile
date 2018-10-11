@@ -32,6 +32,7 @@ brew "kubernetes-helm"
 brew "watch"
 brew "git-crypt"
 brew "pre-commit"
+cask "ngrok"
 
 # Productivity
 cask "slack"
@@ -58,3 +59,7 @@ brew "automake"
 brew "libtool"
 brew "shtool"
 brew "gflags"
+
+# Design
+cask "zeplin"
+cask "sketch"
