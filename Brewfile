@@ -33,6 +33,8 @@ brew "watch"
 brew "git-crypt"
 brew "pre-commit"
 cask "ngrok"
+brew "jq"
+cask "android-platform-tools"
 
 # Productivity
 cask "slack"
