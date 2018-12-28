@@ -90,4 +90,5 @@ alias ls="ll"
 
 alias sync="cd ~/config/; git add . ; git commit -m 'Sync settings @ $(date)'; git push"
 
+export NPM_TOKEN=5c813563-154e-4e85-90bd-b5b0a7327513
 export GOPATH=$HOME/go

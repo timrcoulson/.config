@@ -12,6 +12,7 @@ cask "phpstorm"
 cask "intellij-idea"
 cask "goland"
 cask "webstorm"
+cask "pycharm"
 
 # Tooling
 brew "terraform"
