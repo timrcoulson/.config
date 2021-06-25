@@ -2,17 +2,13 @@
 
 defaults write com.apple.dock persistent-apps -array
 APPS=(
-  Ableton\ Live\ 10\ Standard
   Slack
   Google\ Chrome
   1Password\ 7
   GoLand
-  IntelliJ\ IDEA
   Webstorm
-  PhpStorm
   iTerm
   Spotify
-  Sequel\ Pro
 )
 
 for i in "${APPS[@]}"
