@@ -26,7 +26,8 @@ ln -s $(pwd)/zshrc ~/.zshrc
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Theme for zsh
-ln -s $(pwd)/timcoulson.zsh-theme ~/.oh-my-zsh/themes/timcoulson.zsh-theme
+mkdir ~/.oh-my-zsh/themes
+ln -s $(pwd)/timrcoulson.zsh-theme ~/.oh-my-zsh/themes/timrcoulson.zsh-theme
 
 # Get 1pw and chrome to play nicely
 xattr -r -d com.apple.quarantine /Applications/Google\ Chrome.app

@@ -14,8 +14,11 @@ cask "postman"
 cask "google-cloud-sdk"
 brew "wget"
 brew "pre-commit"
+brew "skaffold"
 cask "ngrok"
 brew "jq"
+brew "helm"
+brew "awscli"
 
 # Productivity
 cask "slack"

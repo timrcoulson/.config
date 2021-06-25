@@ -77,8 +77,12 @@ alias gstd="git stash drop"
 alias gstl="git stash list"
 alias gh='cd "$(git rev-parse --show-toplevel)"'
 
+# Kubectl
+alias k="kubectl"
+
 # Go
 export GOPATH=$HOME/go-workspace
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
+source ~/.kitt

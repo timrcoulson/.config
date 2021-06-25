@@ -1,8 +1,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-export ZSH="/Users/tim/.oh-my-zsh"
+export ZSH="/Users/timrcoulson/.oh-my-zsh"
 
-ZSH_THEME="timcoulson"
+ZSH_THEME="timrcoulson"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -86,9 +86,12 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias ls="ll"
-
 alias sync="cd ~/config/; git add . ; git commit -m 'Sync settings @ $(date)'; git push"
 
 export NPM_TOKEN=1a33f07f-f2bb-48ad-91f6-b5c7c381dde7
 export GOPATH=$HOME/go
+
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+source ~/.kitt
