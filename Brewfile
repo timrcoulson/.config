@@ -19,6 +19,7 @@ cask "ngrok"
 brew "jq"
 brew "helm"
 brew "awscli"
+cask "graphiql"
 
 # Productivity
 cask "slack"

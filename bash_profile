@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+alias k='kubectl'
+
 # Aliases
 alias gcl='git clone'
 alias ga='git add'
@@ -78,7 +80,6 @@ alias gstl="git stash list"
 alias gh='cd "$(git rev-parse --show-toplevel)"'
 
 # Kubectl
-alias k="kubectl"
 
 # Go
 export GOPATH=$HOME/go-workspace

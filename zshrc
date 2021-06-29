@@ -88,10 +88,11 @@ source $ZSH/oh-my-zsh.sh
 
 alias sync="cd ~/config/; git add . ; git commit -m 'Sync settings @ $(date)'; git push"
 
-export NPM_TOKEN=1a33f07f-f2bb-48ad-91f6-b5c7c381dde7
 export GOPATH=$HOME/go
 
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+
+alias k="kubectl"
 
 source ~/.kitt
