@@ -2,3 +2,5 @@
 .DS_Store
 *.swo
 gcloud
+SoundTouch*
+iterm2

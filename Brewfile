@@ -9,7 +9,9 @@ cask "goland"
 cask "webstorm"
 
 # Tooling
+brew "openvpn-connect"
 brew "terraform"
+brew "openvpn"
 cask "postman"
 cask "google-cloud-sdk"
 brew "wget"
@@ -20,6 +22,8 @@ brew "jq"
 brew "helm"
 brew "awscli"
 cask "graphiql"
+cask "bloomrpc"
+brew "mysql"
 
 # Productivity
 cask "slack"
